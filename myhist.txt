@@ -1,0 +1,141 @@
+    1  git config --global user.name sathyathiagarajan171-lgtm
+    2  git config --global user.email sathyathiagarajan171@gmail.com
+    3  git config --global user.email "sathyathiagarajan171@gmail.com"
+    4  git config --list
+    5  git config --global list
+    6  git init
+    7  git remote add origin https://github.com/sathyathiagarajan171-lgtm/remote_repo1.git
+    8  git remote -v
+    9  ls
+   10  touch file.txt
+   11  ls
+   12  git add .
+   13  git add file.txt
+   14  git status
+   15  git commit -m "added file.txt"
+   16  git status
+   17  clear
+   18  git push origin master
+   19  clear
+   20  clear
+   21  git config --list
+   22  git push origin master
+   23  ls
+   24  git init
+   25  git remote add origin https://github.com/sathyathiagarajan171-lgtm/remote_repo.git
+   26  git remote -v
+   27  touch file.txt
+   28  ls
+   29  git add file.txt
+   30  git status
+   31  git push origin master
+   32  git commit -m "added"
+   33  git status
+   34  git push origin master
+   35  ls
+   36  git pull origin master
+   37  ls
+   38  git branch sathya
+   39  git branch
+   40  git switch sathya
+   41  cd ..
+   42  git swirch master
+   43  git switch master
+   44  git branch
+   45  git init
+   46  ls
+   47  git switch master
+   48  cd Local_repo
+   49  ls
+   50  git switch master
+   51  clear
+   52  git clone https://github.com/RitikZero7/remote_repo_1.git
+   53  git branch Sathya
+   54  ls
+   55  cd ..
+   56  cd ..
+   57  cd master
+   58  touch code.txt,log.txt,output.txt
+   59  ls
+   60  rm code.txt,log.txt,output.txt
+   61  clear
+   62  touch code.txt
+   63  touch log.txt
+   64  touch output.txt
+   65  ls
+   66  git add code.txt
+   67  git add output.txt
+   68  git commit -m "file addede"
+   69  ls
+   70  git push origin master
+   71  git init
+   72  git remote add origin https://github.com/sathyathiagarajan171-lgtm/HandsOn.git
+   73  git push origin master
+   74  git init
+   75  git remote add origin "https://github.com/sathyathiagarajan171-lgtm/HandsOn.git"
+   76  git remote -v
+   77  git push origin master
+   78  git remote add origin https://github.com/sathyathiagarajan171-lgtm/HandsOn.git
+   79  git branch -M main
+   80  git push -u origin main
+   81  clear
+   82  git remote add origin https://github.com/sathyathiagarajan171-lgtm/sathya_Handson.git
+   83  git remote add origin1 https://github.com/sathyathiagarajan171-lgtm/sathya_Handson.git
+   84  git remote -v
+   85  ls
+   86  git push origin1 master
+   87  git remote -v
+   88  git push origin1 main
+   89  clear
+   90  ls
+   91  mkdir feature1.txt
+   92  mkdir feature2.txt
+   93  ls
+   94  git branch
+   95  git branch develop
+   96  git branch feature1
+   97  git branch feature2
+   98  git branch
+   99  git switch develop
+  100  touch develop.txt
+  101  git stash
+  102  git add develop.txt
+  103  git stash
+  104  git checkout -b feature1
+  105  git switch feature1
+  106  touch new.txt
+  107  git add new.txt
+  108  git commit -m "new file added"
+  109  ls
+  110  git switch develop
+  111  git stash pop
+  112  nano develop.txt
+  113  ls
+  114  git add ..
+  115  git add develop.txt
+  116  git add develop.txt
+  117  git commit -m "tried statsh"
+  118  ls
+  119  git switch main
+  120  ls
+  121  touch feature1.txt feature2.txt
+  122  ls
+  123  git add feature1.txt feature2.txt
+  124  ls
+  125  git commit -m "added"
+  126  ls
+  127  stash pop
+  128  rm  feature1.txt/  feature2.txt/
+  129  rmdir  feature1.txt/  feature2.txt/
+  130  ls
+  131  touch feature1.txt feature2.txt
+  132  git add ..
+  133  git add .
+  134  git commit -m "added"
+  135  ls
+  136  git push origin1 main
+  137  history
+  138  history my_hist.txt
+  139  history myhist.txt
+  140  history "myhistory.txt"
+  141  history > myhist.txt
